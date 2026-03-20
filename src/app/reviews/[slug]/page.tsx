@@ -4,6 +4,7 @@ import { Check, X, ExternalLink, ChevronRight } from "lucide-react";
 import { tools } from "@/lib/tools-data";
 import StarRating from "@/components/StarRating";
 import ToolCard from "@/components/ToolCard";
+import AdBanner from "@/components/AdBanner";
 
 export function generateStaticParams() {
   return tools.map((tool) => ({ slug: tool.slug }));
@@ -208,6 +209,11 @@ export default async function ToolReviewPage({
               </p>
             </div>
           </div>
+        </div>
+
+        {/* Ad Banner */}
+        <div className="mt-12">
+          <AdBanner slot="leaderboard" />
         </div>
 
         {/* Similar Tools */}

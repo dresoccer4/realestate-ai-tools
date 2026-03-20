@@ -8,7 +8,7 @@ export const categories: Category[] = [
     description:
       "AI-powered customer relationship management tools built for real estate workflows, lead tracking, and client communication.",
     icon: "Users",
-    toolCount: 5,
+    toolCount: 2,
   },
   {
     id: "virtual-staging",
@@ -17,7 +17,7 @@ export const categories: Category[] = [
     description:
       "Transform empty rooms into beautifully staged spaces using AI. Generate photorealistic staging in minutes.",
     icon: "Home",
-    toolCount: 4,
+    toolCount: 3,
   },
   {
     id: "lead-generation",
@@ -26,7 +26,7 @@ export const categories: Category[] = [
     description:
       "AI tools that find, qualify, and nurture real estate leads automatically so you can focus on closing deals.",
     icon: "Target",
-    toolCount: 6,
+    toolCount: 5,
   },
   {
     id: "marketing",
@@ -35,7 +35,7 @@ export const categories: Category[] = [
     description:
       "Generate listing descriptions, social media posts, email campaigns, and marketing materials with AI.",
     icon: "Megaphone",
-    toolCount: 5,
+    toolCount: 3,
   },
   {
     id: "analytics",
@@ -44,7 +44,7 @@ export const categories: Category[] = [
     description:
       "AI-driven property valuation, market analysis, and predictive analytics for smarter investment decisions.",
     icon: "BarChart3",
-    toolCount: 3,
+    toolCount: 1,
   },
   {
     id: "chatbots",
@@ -53,7 +53,7 @@ export const categories: Category[] = [
     description:
       "24/7 AI chatbots for your real estate website that qualify leads, answer questions, and book showings.",
     icon: "MessageSquare",
-    toolCount: 4,
+    toolCount: 2,
   },
   {
     id: "transaction",
@@ -62,7 +62,7 @@ export const categories: Category[] = [
     description:
       "Automate paperwork, compliance checks, and closing workflows with AI-powered transaction tools.",
     icon: "FileCheck",
-    toolCount: 3,
+    toolCount: 2,
   },
   {
     id: "photo-video",
@@ -71,6 +71,6 @@ export const categories: Category[] = [
     description:
       "AI photo enhancement, virtual tours, drone footage editing, and video creation for stunning listings.",
     icon: "Camera",
-    toolCount: 4,
+    toolCount: 3,
   },
 ];
